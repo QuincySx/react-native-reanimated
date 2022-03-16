@@ -11,7 +11,7 @@ import org.apache.tools.ant.taskdefs.condition.Os
 import org.apache.tools.ant.filters.ReplaceTokens
 
 def reactProperties = new Properties()
-file("$projectDir/../node_modules/react-native/ReactAndroid/gradle.properties").withInputStream { reactProperties.load(it) }
+file("$projectDir/../../node_modules/react-native/ReactAndroid/gradle.properties").withInputStream { reactProperties.load(it) }
 
 def BOOST_VERSION = reactProperties.getProperty("BOOST_VERSION")
 def DOUBLE_CONVERSION_VERSION = reactProperties.getProperty("DOUBLE_CONVERSION_VERSION")
