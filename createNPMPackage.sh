@@ -7,9 +7,9 @@ ROOT=$(pwd)
 unset CI
 
 # versions=("0.65.1" "0.64.1" "0.63.3" "0.62.2 --dev")
-versions=("0.65.1" "0.64.2")
-rnv8_versions=("0.65.1-patch.1" "0.64.2-patch.1")
-version_name=("65" "64")
+versions=("0.66.0" "0.65.1" "0.64.2")
+rnv8_versions=("0.66.0-patch.0" "0.65.1-patch.1" "0.64.2-patch.1")
+version_name=("66" "65" "64")
 
 # for index in {0..3}
 for index in {0..1}
